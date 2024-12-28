@@ -1,0 +1,95 @@
+body{
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+}
+.sign{
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.form-sign{
+    border-radius: 10px;
+    margin: 100px;
+    text-align: center;
+    height: 450px;
+    width: 370px;
+    background-color:white;
+}
+label{
+    position: absolute;
+    padding-left: 25px;
+    top: 1px;
+    padding-top: 194px;
+    
+    
+    
+}
+input{
+    height: 30px;
+    width: 60%;
+    border-radius: 3px solid black;
+    
+    
+}
+.sign-up{
+height: 30px;
+width:60% ;
+background-color: aqua;
+border: none;
+border-radius: 3px;
+color: white;
+cursor: pointer;
+
+}
+.sign-up:hover{
+    background-color: rgb(106, 42, 165);
+    color: blueviolet;
+    
+}
+.sign-up:active{
+    opacity: 0.1;
+}
+.already{
+
+    color: rgb(186, 177, 177);
+}
+.log-in{
+    color: aqua;
+}
+img{
+    height: 15px;
+    width: auto;
+    text-align: center;
+    
+    
+}
+.google{
+    height: 30px;
+    width: 60%;
+    border-radius: 3px solid black;
+    text-align: center;
+    background-color: white;
+}
+.title{
+    display: grid;
+    width: 60%;
+    column-gap: 0.5rem;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+padding-left: 80px;
+}
+
+
+.title::before, .title::after{
+    content: "";
+    height: 1px;
+    background-color: black;
+    display:flex;
+    
+}
+with-google{
+    padding-top: 5px;
+    text-align: center;
+    
+}
